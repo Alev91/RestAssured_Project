@@ -20,7 +20,7 @@ public class Queries_1_2_3 {
 
     String username = "alev27";
     String password = "1234";
-    int accountID=0;
+   public int accountID=0;
     String url = "https://api.themoviedb.org/3";
 
 
