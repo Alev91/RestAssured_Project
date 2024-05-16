@@ -33,7 +33,7 @@ public class Queries_4_5_6 {
     public void AddMovietoFavorites() {
         Map<String, Object> body1 = new HashMap<>();
         String media_type = "movie";
-        String media_id = "6210c6bb9824c8001be3df40";
+        String media_id = "550";
         Boolean favorite = true;
 
         body1.put("media_type", media_type);
@@ -49,6 +49,8 @@ public class Queries_4_5_6 {
 
 
                 .then()
+                .log().body()
+
                 .statusCode(201)
 
         ;
